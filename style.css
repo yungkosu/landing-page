@@ -1,0 +1,187 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+}
+
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+}
+
+.header p {
+    padding-left: 20px;
+    font-weight: 900;
+}
+
+.header-links {
+    display: flex;
+    margin-left: auto;
+    gap: 20px;
+    color: white;
+    padding-right: 20px;
+}
+
+.header-links a {
+    text-decoration: none;
+    color: white
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f2937;
+    padding: 20px
+}
+
+.text-content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding-right:50px;
+    gap: 5px
+}
+
+#pug {
+    width: 300px;
+    height: 300px;
+}
+
+.header-content h1 {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+    
+}
+
+#sign-up-button-top {
+    background-color: #3882F6;
+    border: none;
+    color: white;
+    text-align: center;
+    padding: 15px 32px;
+    text-decoration:none;
+    font-size: 16px;
+    cursor:pointer;
+    font-weight: 900;
+    width: 200px;
+    border-radius: 12px;
+}
+
+p {
+    color: white
+}
+
+.information-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    font-weight: 900;
+    font-size: 36px;
+    color: #1F2937
+}
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+}
+
+.quote-text p {
+    color: #1F2937;
+    font-weight: 300
+}
+
+#quote-body {
+    font-style: italic;
+}
+#quote-author {
+    text-align:right
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-and-subtext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.image-and-subtext img {
+    width:200px;
+    height: 200px
+}
+
+.image-and-subtext p {
+    color:black;
+}
+
+.footer-content {
+    display: flex;
+    background-color: #3882F6;
+    margin: 100px;
+    border-radius: 12px;
+    justify-content: center;
+    align-items: center;
+    gap:50px
+}
+.footer-text {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+
+}
+
+.footer-text p{
+    color: white
+}
+
+#sign-up-button-bottom {
+    background-color: #3882F6;
+    border: 2px solid white;
+    color: white;
+    text-align: center;
+    padding: 15px 32px;
+    text-decoration:none;
+    font-size: 16px;
+    cursor:pointer;
+    font-weight: 900;
+    width: 200px;
+    border-radius: 12px;
+    height: 50px;
+    width:200px
+}
+
+#sign-up-button-bottom:hover {
+background-color: white;
+color: #3882F6
+}
+
+#call-to-action {
+    font-weight: 900;
+    font-size:24px
+}
+
+.footer {
+    color:white;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
