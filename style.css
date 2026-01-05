@@ -143,6 +143,7 @@ h2 {
 
 .images {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
@@ -157,7 +158,8 @@ h2 {
 }
 .image-and-subtext img {
     width:400px;
-    height: 400px
+    height: 400px;
+
 }
 
 .image-and-subtext p {
